@@ -1,0 +1,9 @@
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    
+    # 1. Print the result of integer division (floor division)
+    print(a // b)
+    
+    # 2. Print the result of float division
+    print(a / b)
