@@ -1,0 +1,10 @@
+import numpy
+
+# This line is crucial to match the legacy string formatting alignment on HackerRank
+numpy.set_printoptions(legacy='1.13')
+
+# Read N and M from the single line input
+n, m = map(int, input().split())
+
+# Print the eye matrix of size N x M
+print(numpy.eye(n, m))
