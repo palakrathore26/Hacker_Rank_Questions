@@ -1,0 +1,18 @@
+import numpy as np
+
+# Read N and M from the first line
+n, m = map(int, input().split())
+
+# Read the rows for array A
+a = np.array([list(map(int, input().split())) for _ in range(n)])
+
+# Read the rows for array B
+b = np.array([list(map(int, input().split())) for _ in range(n)])
+
+# Perform and print each element-wise operation
+print(a + b)
+print(a - b)
+print(a * b)
+print(a // b)  # Use integer floor division (//) for Python 3 to match sample output
+print(a % b)
+print(a ** b)
